@@ -1,0 +1,232 @@
+html {
+	background-color:#FECD45;
+}
+
+body {
+	font-family: Tahoma, Verdana, sans-serif;
+	margin: 0 auto;
+	min-width: 768px;
+	max-width: 1024px;
+}
+main {
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+}
+main section {
+	width: 60%;
+}
+.Products-real{
+    display: grid; 
+    grid-template-areas: 
+   
+    "products-heading"
+    "Table-radio"
+    "Olkp"
+
+    "Product-1"
+    "p-1img"
+    "p-1-pi"
+    "p-1-price"
+    
+    "Product-2"
+    "p-2img"
+    "p-2-pi"
+    "p-2-price"
+
+    "Product-3"
+    "p-3img"
+    "p-3-pi"
+    "p-3-price"
+
+    "info";
+}
+
+.products-heading > h1 {
+    text-align: center;
+    font-size: 70px;
+  font-weight: 600;
+  color: #fdfdfe;
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+}
+
+.Table-radio > h2{
+    text-align: center;
+    color: #2568FB;
+    font-family: monospace;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 45px;
+}
+.Olkp > h4 {
+    text-align: left;
+    color: #131516;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 20px;
+}
+
+
+
+.Product-1 > h3 {
+    text-align: left;
+    color: #2568FB;
+    font-family: monospace;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 45px;
+}
+.p-1img > h3 {
+
+}
+.p-1-pi > h5{
+    text-align: left;
+    color: #131516;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 20px;
+}
+.p-1-price> h4 {
+    text-align: left;
+    color: #131516;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 20px;
+}
+
+
+
+
+
+.Product-2 > h3 {
+    text-align: left;
+    color: #2568FB;
+    font-family: monospace;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 45px;
+}
+.p-2img > h3 {
+
+}
+.p-2-pi > h5{
+    text-align: left;
+    color: #131516;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 20px;
+}
+.p-2-price> h4 {
+    text-align: left;
+    color: #131516;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 20px;
+}
+
+
+
+
+
+.Product-3 > h3 {
+    text-align: left;
+    color: #2568FB;
+    font-family: monospace;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 45px;
+}
+.p-3img > h3 {
+
+}
+.p-3-pi > h5{
+    text-align: left;
+    color: #131516;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 20px;
+}
+.p-3-price> h4 {
+    text-align: left;
+    color: #131516;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 67;
+    letter-spacing: 0px;
+    font-size: 20px;
+}
+
+header nav {
+   
+    
+    }
+header nav ul {
+    
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style-type: none;
+    }
+    
+    header nav li {
+    
+        display: inline-block;
+    }
+    header nav a {
+
+       
+        display: block;
+        
+        }
+        header nav ul li {
+            position: relative;
+        
+        }
+        header nav ul ul {
+            position: absolute;
+            left: -9999px;
+            background-color: white;
+            width: 15em;
+            z-index: 1;
+            border: 3px solid black;
+        
+        
+        }
+        header nav ul ul li {
+            display: block;
+        }
+        
+        header nav li:hover ul{
+            left: auto;
+        }
+        
+        header nav a:link {
+            padding: 0.5em;
+            text-decoration: none;
+            background-color: white;
+            color: black;
+        }
+        
+        header nav a:visited {
+            color:  rgb(88, 79, 79);
+        
+        }
+        header nav a:focus {
+            background-color: rgb(134, 109, 233);
+        }
+        header nav a:hover {
+            background-color: grey;
+            color: white;
+        
+        
+        }
+        header nav a:active {
+            color: rgb(7, 97, 121);
+            background-color: rgb(217, 115, 43);
+        
+        }
